@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <section id="basic information">
+        <label>Provide your basic information</label>
+     <form>
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname"   name="input your Full Name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="emailaddress" name="input your email" required>
+
+        <label for="Age">Age</label>
+        <input type="number" id="age" name="provide your contact number" required min="18" max="99">
+        <br>
+        <label for="Phone">Phone number </label>
+        <input type="tel" id="Phone" name="Provide your tel number" pattern="[0-9]{10}" required>
+
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="Date of birth" required>
+
+        <label for="country">Country of Residence</label>
+        <select id="country" name="Country" required>
+            <option value="">Select your country</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Kenya">Kenya</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+    </form>
+</section>
+
+        <section id="interest">
+            <label>Choose where appropriate</label><br>
+            <label>
+                <input type="radio" name="gender" value="Male" required>
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Female" required>
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Other" required>
+                Other
+            </label>
+    
+            <br>
+    
+            <label>
+                <input type="checkbox" name="hobbies" value="Reading" >
+                Reading
+            </label>
+            <label>
+                <input type="checkbox" name="hobbies" value="Sports" >
+                Sports
+            </label>
+            <label>
+                <input type="checkbox" name="hobbies" value="Music">
+                Music
+            </label>
+            <label>
+                <input type="checkbox" name="hobbies" value="Travel" >
+                Travel
+            </label>
+        </section>
+ 
+    
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
+
+    <br>
+
+    <button type="submit">Submit</button>
+
+</body>
+</html>
