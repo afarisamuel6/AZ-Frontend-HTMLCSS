@@ -1,0 +1,17 @@
+.list {
+    font-weight: 100;
+    border: 1px;
+    padding: 10px;
+    color: brown;
+
+}
+
+
+.list:hover{
+        color: red;
+        
+}
+
+.heading {
+background-color: rgb(14, 133, 67);
+}   
